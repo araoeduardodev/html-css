@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: #D5C9DF;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            color: #191311;
+        }  
+        h1 {
+            background-color: coral;
+            text-align: center;
+
+            width: 440px;
+            height: 38px;
+
+            border: 10px groove rgb(110, 84, 74);
+            padding: 5px 10px;
+            margin: 10px auto 10px auto;
+            outline: 4px none coral;
+        }
+
+        p {
+            background-color: coral;
+
+            width: 590px;
+            height: 225px;
+
+            border-radius: 10px;
+            padding: 5px 15px;
+            margin: 30px auto 15px auto;
+            outline: 7px double rgb(13, 13, 13);
+        }
+
+        p#secundario {
+            background-color: rgb(137, 66, 40);
+            color: white;
+            width: 590px;
+            height: 225px;
+
+            border-radius: 10px;
+            padding: 5px 15px;
+            margin: 30px auto 15px auto;
+            outline: 7px double rgb(13, 13, 13);
+        }
+
+        a#link1 {
+            color: #3D1A06;
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+        a#link2 {
+            color: coral;
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: rgb(67, 67, 67);
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            font-weight: bolder;
+        }
+
+        a::before {
+            content: '✷ ';
+        }
+
+        a::after {
+            content: ' ✷';
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Todo conteúdo possui uma largura (width) e uma altura (height) e a esse conjunto de propriedades, damos o nome de box-size (tamanho da caixa). O tamanho da caixa não inclui as medidas de padding, border, outline e margin. <a href="#" id="link1">[Acesse o link para exemplo]. </a> Depois do conteúdo e de seu tamanho, vamos focar na borda (border) que fica em volta dele. Ela pode ter uma espessura, uma cor e um formato. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odit, ex doloribus atque unde iure voluptatum omnis! Illo, corrupti, cumque aspernatur sint ipsum voluptatibus quia ducimus iure sequi perferendis cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quis est voluptatem repellendus cumque iure. Provident vel in quisquam id mollitia at earum. Id recusandae molestias rerum, quam ex voluptate.</p>
+
+    <p id="secundario">Todo conteúdo possui uma largura (width) e uma altura (height) e a esse conjunto de propriedades, damos o nome de box-size (tamanho da caixa). O tamanho da caixa não inclui as medidas de padding, border, outline e margin. <a href="#" id="link2">[Acesse o link para exemplo]. </a> Depois do conteúdo e de seu tamanho, vamos focar na borda (border) que fica em volta dele. Ela pode ter uma espessura, uma cor e um formato. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odit, ex doloribus atque unde iure voluptatum omnis! Illo, corrupti, cumque aspernatur sint ipsum voluptatibus quia ducimus iure sequi perferendis cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quis est voluptatem repellendus cumque iure. Provident vel in quisquam id mollitia at earum. Id recusandae molestias rerum, quam ex voluptate.</p>
+    
+
+</body>
+</html>
